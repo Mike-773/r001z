@@ -1,0 +1,16 @@
+
+#create a new gemfile in the quotes directory
+#I copied the gemfile under directory r001z and edited it - this could also
+#have been written from scratch if I had preferred
+
+
+source "https://rubygems.org"
+gem "r001z",  path: "../r001z"
+
+#the code on line 8 tells it to use gem r001z and the path part tells it that
+#gem r001z is insid the same folder that the quotes folder is in, that is
+#under folder r001z
+
+#Instructions from Noah
+#once this file has been created run "bundle" from inside quotes folder
+#to install gems and create gemfile.lock - minute 11:28 on video
